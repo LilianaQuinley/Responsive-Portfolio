@@ -1,0 +1,240 @@
+/**
+ INDEX Styles.css
+ **/
+
+* {
+    border-color: #cccccc;
+    content: 960px;
+    background-color: #ffffff;
+}
+
+* hr {
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px
+}
+#hrcontact {
+    margin-right: 45px;
+}
+
+p {
+    margin-left: 35px;
+    margin-right: 50px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 6px solid#4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+}
+footer p {
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+Main {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    content: 960px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;   
+  }
+  
+  header {
+    border-color: #cccccc;
+  }
+  
+  
+  h1 {
+    padding: 20px 0;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 250px;
+    height: 27px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 200px;
+    padding-bottom: 0px;
+    color: #4aaaa5;
+  }
+
+
+  ul {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 35px;
+  }
+  nav {
+    float: right;
+    margin-right: 130px;
+  }
+  
+  .navlink {
+    padding:0;  
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  #main-bio,
+  #bio-image {
+    float: left;
+  }
+
+    /** ===== CONTACT CSS =========
+    **/
+  
+  #contact-info {
+    margin-top: 0;
+    width: 960px;
+    margin-left: 280px;
+    width: 50%;
+ 
+  }
+   form {
+    padding: 10px;
+    margin: 40px;
+    margin-right: 400px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  #fullpage {
+    background-color: #efeee7;
+    width: 100%;
+  }
+
+  #text {
+    width: 534px;
+  }
+
+  #submit {
+    color: #eee;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #4aaaa5;
+    padding: 15px;
+  }
+
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 40px;
+    float: left;
+  }
+
+  #bio-section {
+    width: 960px;
+    margin-left: 100px;
+    border-color:#dddddd;
+    background-color: #ffffff;
+    width: 70%;
+ 
+
+
+  /** ===== PORTFOLIO CSS =========
+  **/
+
+  }
+  #img_section {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+
+  .container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    margin: 0px 0px 50px 50px;
+
+  }
+
+  .text-block {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    padding: 0px 25px;
+    width: 200px;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: white;
+  }
+
+  .port-content {
+    padding: 0px 25px;
+  }
+
+.text-block h4 {
+  background-color: #4aaaa5;
+}
+
+  /** ===== MEDIA QUERIE  =========
+  **/
+
+
+@media screen and (max-width: 980px) {
+ #bio-section {
+   width: 50%;
+ }
+ #break {
+   height: 500px;
+   background-color: #efeee7; 
+ }
+}
+
+
+@media screen and (max-width: 768px) {
+  #bio-section {
+    width: 83%;
+  }
+  #break {
+    height: 450px;
+    background-color: #efeee7; 
+  }
+ }
+
+ @media screen and (max-width: 640px) {
+  #bio-section {
+    width: 83%;
+  }
+  #break {
+    height: 450px;
+    background-color: #efeee7; 
+  }
+  nav {
+    float: none;
+  }
+  #bio-image {
+    float: none;
+  }
+ }
